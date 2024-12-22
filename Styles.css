@@ -1,0 +1,143 @@
+body{
+    background: linear-gradient(180deg, rgb(0, 102, 255) 0%, rgb(5, 121, 189) 40%, rgb(104, 224, 248) 100%);
+    background-repeat:no-repeat;
+    background-size: contain; 
+}
+
+#map { 
+    width: 95%;
+    height: 820px;
+    border-radius: 15px;
+    border-style: solid;
+    box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.2);
+}
+
+div{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar{
+    margin-bottom: 40px;
+}
+
+ul{
+    padding: 10px;
+    text-align: left;
+    align-items: center;
+}
+
+
+ul li{
+    margin: 0 15px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+ul li a:hover{
+    color: grey;
+}
+
+.offcanvas-header{
+    background-color: rgb(81, 153, 235);
+    margin: 0;
+    border-bottom: 2px solid rgb(62, 147, 245);
+}
+
+.offcanvas-body{
+    margin: 0;
+    background-color: rgb(15, 110, 219);
+}
+
+.col-lg-4{
+    margin-bottom: 25px;
+}
+
+.card-body{
+    box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.2);
+}
+
+table{
+    box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.2);
+}
+
+#tabla{
+    box-shadow: none;
+    width: 95%;
+    margin: auto;
+}
+
+#tabla1{
+    box-shadow: none;
+    width: 95%;
+    margin: auto;
+    text-align: left;
+}
+
+select{
+    width: 100%;
+    padding: .375rem .75rem;
+    border-radius: .375rem;
+    border: 1px solid;
+    border-color: #dee2e6;
+}
+
+#img{
+    width: 20px;
+    margin: 0 3px;
+}
+
+#img:hover{
+    opacity: .7;
+}
+
+h3{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+
+div img{
+    width: 100%;
+}
+
+#titulo{
+    font-weight: bold;
+    font-size: medium;
+    max-width: 130px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#contenido{
+    font-size: medium;
+    max-width: 120px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.leaflet-popup-content{
+    width: 250px;
+}
+
+.pagination{
+    justify-content: center;
+}
+
+#pg{
+    margin: 0;
+}
+
+button{
+    background-color: rgba(25, 87, 87, 0);
+    border-color:rgba(240, 248, 255, 0);
+}
+
+button:hover{
+    color: blue;
+}

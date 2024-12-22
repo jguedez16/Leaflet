@@ -1,0 +1,60 @@
+.leaflet-control {
+  padding: 15px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  background-clip: padding-box;
+}
+
+.leaflet-control-layers {
+  padding: 5px;
+}
+
+.leaflet-control-attribution{
+  padding: 5px;
+  border-radius: 0;
+  border: none;
+}
+
+.leaflet-control-zoom {
+  padding: 5px;
+}
+
+.leaflet-legend-column {
+  float: left;
+}
+
+.leaflet-legend-item {
+  display: table;
+  margin: 2px 0;
+}
+
+.leaflet-legend-item span {
+  vertical-align: middle;
+  display: table-cell;
+  word-break: keep-all;
+  white-space: nowrap;
+  background-color: transparent;
+  text-align: left;
+  font-size: 100%;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.leaflet-control i {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+}
+
+.leaflet-legend-contents {
+  display: none;
+}
+
+
+.leaflet-control img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 3px;
+  margin-right: 2px;
+}
